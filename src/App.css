@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.poke-image {
+  height: 40vmin;
+}
+.button {
+  margin: 5px;
+  cursor: pointer;
+  width: 10vw;
+  height: 5vh;
+  background-color: #41729f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.poke-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #274472;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +38,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c3e0e5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
